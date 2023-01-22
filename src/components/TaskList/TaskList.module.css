@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 4rem;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.createdText {
+  color: var(--blue);
+}
+
+.completedText {
+  color: var(--purple);
+}
+
+.pill {
+  background: var(--gray-400);
+  border-radius: 9999px;
+  padding: 2px 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.taskListContainer {
+  margin-top: 1.5rem;
+}
